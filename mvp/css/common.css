@@ -1,0 +1,331 @@
+/*****
+去除padding  margin
+*****/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, figcaption, figure, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0
+}
+/*****
+设置正文字体及大小
+*****/
+body, button, input, select, textarea {
+    font-family: "微软雅黑";
+    color: #333333;
+}
+button{
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+h1, h2, h3, h4, h5, h6,b{
+    font-weight: normal;
+}
+a {
+    text-decoration: none
+}
+* {
+    -ms-word-break: break-all;
+    word-break: break-all;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+}
+li {
+    list-style: none;
+}
+input {
+    outline: none;
+}
+a {
+    color: #333333;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+address, cite, dfn, em, var, i {
+    font-style: normal
+}
+/* 去除iphone ipad 设备默认按钮样式 */
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+textarea {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #cccccc;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #cccccc;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #cccccc;
+}
+/* 底部 */
+.footer{
+    width: 100%;
+    padding-top: 82px;
+    padding-bottom: 75px;
+    background: #421b92;
+}
+.footer_main{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+.footer_logo{
+    width: 171px;
+    height: 81px;
+    margin-top: 10px;
+    background: url(../images/logo_03.png) no-repeat;   
+}
+.left_main{
+    width: 568px;
+    display: flex;
+    justify-content:space-between;
+}
+.left_top li,.left_top li a{
+    display: flex;
+}
+.left_top li{
+    margin-bottom: 40px;
+}
+.left_top p{
+    color: #fff;
+    font-size: 24px;
+}
+.footer_bottom{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 15px;
+}
+.footer_right{
+    display: flex;
+}
+.footer_right>dl{
+    margin-right: 52px;
+}
+.footer_right>dl>dd{
+    color: #fff;
+    font-size: 16px;
+    margin-top:12px;
+}
+/* 底部结束 */
+/* 下面登录注册 */
+.register{
+    width: 340px;
+    height: 372px;
+    background: #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -170px;
+    margin-left: -196px;
+    padding: 13px 20px;
+    border-radius: 10px;
+    z-index: 1000; 
+    display: none;
+}
+.close-btn{
+    font-size: 22px;
+    color: #8391a5;
+    background: #ffffff;
+    height: 27px;
+    text-align: center;
+    line-height: 24px;
+    width: 27px;
+    border-radius: 50%;
+    top: -14px;
+    right: -9px;
+    position: absolute;
+    cursor: pointer;
+}
+.register-title{
+    display: flex;
+}
+.register-title li{
+    width: 50%;
+    text-align: center;
+    line-height: 35px;
+    border-bottom: 1px solid #d1dbe5;
+    cursor: pointer;
+}
+.register-title li.active{
+    border-bottom: 2px solid #313949;
+    color: #313949;
+}
+
+.register-content .register-input{
+    display: none;
+}
+.register-content .register-input.active{
+    display: block;
+}
+.register-input1 input{
+    width: 96%;
+    line-height: 45px;
+    font-size: 14px;
+    padding: 0 5px;
+    border: 1px solid #8391a5;
+    border-radius: 4px;
+    margin: 7px 0;
+}
+.register-input2 input{
+    width: 96%;
+    line-height: 45px;
+    font-size: 14px;
+    padding: 0 5px;
+    border: 1px solid #8391a5;
+    border-radius: 4px;
+    margin: 7px 0;
+}
+.register-input2>input:nth-child(1){
+    margin-top: 14px;
+}
+.register-input1 input:nth-child(1){
+    margin-top: 25px;
+}
+.register-btn{
+    width: 100%;
+    line-height: 55px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #313949;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+.register-input1 a{
+    font-size: 14px;
+    text-align: right;
+    line-height: 32px;
+    display: block;
+}
+.txyz-btn{
+    width: 34%;
+    height: 47px;
+    border-radius: 4px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.phone-yzm{
+    border-radius: 4px 0 0 4px!important;
+}
+.phone-btn{
+    width: 31%;
+    height: 47px;
+    line-height: 47px;
+    border-radius: 0 4px 4px 0;
+    color: #fff;
+    text-align: center;
+    background: #313949;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.next-btn{
+    width: 100%;
+    line-height: 55px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #313949;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+/*新用户注册最后一步*/
+.major{
+    width: 340px;
+    height: 372px;
+    background: #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -170px;
+    margin-left: -196px;
+    padding: 13px 20px;
+    border-radius: 10px;
+    display: none; 
+    z-index: 10000;
+}
+.major-btn{
+    font-size: 22px;
+    color: #8391a5;
+    background: #ffffff;
+    height: 27px;
+    text-align: center;
+    line-height: 24px;
+    width: 27px;
+    border-radius: 50%;
+    top: -14px;
+    right: -9px;
+    position: absolute;
+    cursor: pointer;
+}
+.major header{
+    color: #079e83;
+    line-height: 32px;
+    border-bottom: 2px solid #079e83;
+}
+.major ul li{
+    line-height: 32px;
+}
+.major ul li:nth-child(1){
+    padding-top: 20px;
+}
+.major ul li:last-child{
+    padding-bottom: 20px;
+}
+.major ul li input{
+    margin-right: 10px;
+}
+.major p{
+    font-size: 16px;
+    text-align: center;
+}
+.affirm-btn{
+    width: 100%;
+    line-height: 55px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #079e83;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 81px;
+    cursor: pointer;
+}
+.gray{
+    cursor: pointer;
+    position: fixed;
+    width: 5000px;
+    height: 2000px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0.7;
+    background: #000;
+    z-index: 10;
+    display: none;
+}
+
+
+
+

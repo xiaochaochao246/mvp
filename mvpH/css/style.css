@@ -1,0 +1,331 @@
+
+.all{
+    width:100%;
+    margin:0 auto;
+    overflow: hidden;
+}
+a.zx1 {
+    width: 2.6rem;
+    height: 0.7rem;
+    display: inline-block;
+    position: absolute;
+    /*left: 56%;*/
+    /*transform: translateX(-2.2rem);*/
+    top: 87%;
+    border-radius: 30px;
+}
+a.zx2 {
+    width: 2.8rem;
+    height: 0.7rem;
+    display: inline-block;
+    position: absolute;
+    /*left: 64%;*/
+    /*transform: translateX(-2.4rem);*/
+    top: 84%;
+    border-radius: 30px;
+}
+a.zx3 {
+    width: 3.6rem;
+    height: 0.5rem;
+    display: inline-block;
+    position: absolute;
+    /*left: 57%;*/
+    /*transform: translateX(-2.4rem);*/
+    top: 87%;
+    border-radius: 30px;
+}
+a.zx4 {
+    width: 2.6rem;
+    height: .6rem;
+    display: inline-block;
+    position: absolute;
+    /*left: 65%;*/
+    /*transform: translateX(-2.4rem);*/
+    top: 91.3%;
+    border-radius: 30px;
+}
+a.zx5 {
+    width: 2.6rem;
+    height: 0.6rem;
+    display: inline-block;
+    position: absolute;
+    /*left: 65%;*/
+    /*transform: translateX(-2.4rem);*/
+    top: 90%;
+    border-radius: 30px;
+}
+a.zx6 {
+    width: 2.6rem;
+    height: 0.6rem;
+    display: inline-block;
+    position: absolute;
+    /*left: 65%;*/
+    /*transform: translateX(-2.4rem);*/
+    top: 87%;
+    border-radius: 30px;
+}
+a.zx7 {
+    width: 2.6rem;
+    height: 0.6rem;
+    display: inline-block;
+    position: absolute;
+    /*left: 65%;*/
+    /*transform: translateX(-2.4rem);*/
+    top: 80%;
+    border-radius: 30px;
+}
+.banner{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.banner .bj1,.banner .bj2,.banner .bj3,.banner .bj4,.banner .bj5,.banner .bj6,.banner .bj7,.banner .bj8,.banner .bj9,.banner .bj10,.banner .bj11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.banner .bj1{
+    background: url(../images/01.png) no-repeat center center;
+    width: 100%;
+    height:7.08rem;
+    background-size:cover; 
+    position: relative;
+    margin-top: 1rem;
+}
+.banner .bj2{
+    background: url(../images/02.png) no-repeat center center;
+    width: 100%;
+    height:6.19rem;
+    background-size:cover; 
+    margin-top: -0.02rem;
+}
+.banner .bj3{
+    background: url(../images/03.png) no-repeat center center;
+    width: 100%;
+    height:7.31rem;
+    position: relative;
+    background-size:cover; 
+    
+}
+.banner .bj4{
+    background: url(../images/04.png) no-repeat center center;
+    width: 100%;
+    height:6.55rem;
+    position: relative;
+    background-size:cover; 
+    
+}
+.banner .bj5{
+    background: url(../images/05.png) no-repeat center center;
+    width: 100%;
+    height:5.8rem;
+    background-size:cover; 
+    
+}
+.banner .bj6{
+    background: url(../images/06.png) no-repeat center center;
+    width: 100%;
+    /*height:3.7rem;*/
+    background-size:contain;
+}
+.banner .bj7{
+    /*padding-top:3.3rem;*/
+    background: url(../images/07.png) no-repeat center center;
+    height:5.2rem;
+    width: 100%;
+    margin-top:1rem;
+    background-size:cover;
+}
+
+.banner .bj8{
+    background: url(../images/08.png) no-repeat center center;
+    width: 100%;
+    height:14.7rem;
+    position: relative;
+    background-size:cover; 
+    
+}
+.banner .bj9{
+    background: url(../images/09.png) no-repeat center center;
+    width: 100%;
+    height:11.5rem;
+    position: relative;
+    background-size:cover; 
+    
+}
+.banner .bj10{
+    background: url(../images/10.png) no-repeat center center;
+    width: 100%;
+    height:7.7rem;
+    position: relative;
+    background-size:cover; 
+    
+}
+.banner .bj11{
+    background: url(../images/11.png) no-repeat center center;
+    width: 100%;
+    height:5.5rem;
+    position: relative;
+    background-size:cover;
+}
+
+img{
+    display: inline;
+}
+.nav{
+    width:100%;
+    height:1rem;
+    background:#fff;
+    border-bottom: 1px solid #cacaca;
+    /* position: relative; */
+    position:fixed;
+    z-index:9999;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+}
+.w{
+    /* width:1.2rem; */
+    margin:0 auto;
+    
+}
+ .nav-logo {
+    width: 1.5rem;
+    height: .5rem;
+    margin-top:.3rem;
+    margin-left: .3rem;
+} 
+.nav-logo img{
+    width:100%;
+}
+
+.nav_price{
+    display: none;
+    /*width:3rem;*/
+    height: 1.2rem;
+    margin-top: .35rem;
+    margin-left: .4rem;
+    position: relative;
+
+}
+.rest{
+    /*position: absolute;*/
+    /* top: .42rem;
+    left: 2.28rem; */
+    /*top: .4rem;
+    left: .6rem;*/
+}
+.rest b{
+    /* font-size: -1.85rem; */
+    color: #E5B700;
+    /* font-weight: bold; */
+}
+.nav_price span:first-child{
+    font-size:.3rem;
+    font-weight: bold;
+}
+.nav_price span:last-child{
+    font-size:.1rem;
+    margin-top:-.2rem;
+    position: absolute;
+    top: 40%;
+    left: -14%;
+}
+.nav_price img{
+    width:100%;
+    /* vertical-align: middle; */
+}
+.price{
+    margin-top:.18rem;
+    height:1.2rem;
+    /*display: none;*/
+}
+
+.totalprice{
+    text-align: center;
+    padding-bottom:.05rem;
+    border-bottom: 1px solid #000;
+}
+.totalprice span{
+    color: #e5b700;
+    font-size: .22rem;
+    font-weight: bold;
+}
+.totalprice i{
+    font-size: .12rem;
+}
+.totalprice i:first-child{
+    color:#e5b700;
+}
+.price_desc{
+    padding-top:.05rem;
+    font-size: .14rem;
+    color: #848890;
+}
+.price_desc span{
+    color:#e5b700;
+    font-weight: bold;
+}
+.price_desc i{
+    color:#e5b700;
+    font-size: .12rem;
+}
+
+.nav-list{
+    width: 1rem;
+    height: .5rem;
+    margin-top: .25rem;
+    margin-right:.3rem;
+    position: relative;
+}
+
+/* nav按钮 */
+.bj1,.bj2{
+    position: relative;
+}
+.zxj{
+    width: 1rem;
+    height: .5rem;
+    display: inline-block;
+    background: transparent;
+    margin-top: -.2rem;
+    position: absolute;
+    top: .25rem;
+    left: 0
+}
+.bm{
+    width: 1rem;
+    height: .5rem;
+    display: inline-block;
+    background: transparent;
+    margin-top: -.2rem;
+    position: absolute;
+    top: .24rem;
+    left: 1rem;
+}
+
+/* 轮播 */
+.swiper-container {
+    width: 100%;
+    height: 4.5rem;
+    top: .85rem;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
